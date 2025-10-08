@@ -89,7 +89,8 @@ Task 1: Perform Whois Lookup using DomainTools
 ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/19.jpg)
 ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/20.jpg)
 
-# Lab 5: Perform DNS Footprinting - DNS considered the intermediary source for any Internet communication. The primary function of DNS is to translate a domain name to IP address and vice-versa to enable human-machine-network-internet communications. Since each device has a unique IP address, it is hard for human beings to memorize all IP addresses of the required application. DNS helps in converting the IP address to a more easily understandable domain format, which eases the burden on human beings.
+# Lab 5: Perform DNS Footprinting 
+DNS considered the intermediary source for any Internet communication. The primary function of DNS is to translate a domain name to IP address and vice-versa to enable human-machine-network-internet communications. Since each device has a unique IP address, it is hard for human beings to memorize all IP addresses of the required application. DNS helps in converting the IP address to a more easily understandable domain format, which eases the burden on human beings.
 Task 1: Gather DNS Information using nslookup Command Line Utility and Online Tool - nslookup is a network administration command-line utility, generally used for querying the DNS to obtain a domain name or IP address mapping or for any other specific DNS record. This utility is available both as a command-line utility and web application.
 
 1. Launch a Command Prompt, and run nslookup command. This displays the default server and its address assigned to the Windows 11 machine.
@@ -114,7 +115,8 @@ This specifies that the result was directed to the default server hosted on the 
 ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/b32214a336c7cda6a4d3f85d3cfadca53501ca56/images/25.jpg)
 ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/b32214a336c7cda6a4d3f85d3cfadca53501ca56/images/26.jpg)
 
-# Lab 6: Perform Network Footprinting - With the IP address, hostname, and domain obtained in the previous information gathering steps, as a professional ethical hacker, your next task is to perform network footprinting to gather the network-related information of a target organization such as network range, traceroute, TTL values, etc. This information will help you to create a map of the target network and perform a man-in-the-middle attack.
+# Lab 6: Perform Network Footprinting 
+With the IP address, hostname, and domain obtained in the previous information gathering steps, as a professional ethical hacker, your next task is to perform network footprinting to gather the network-related information of a target organization such as network range, traceroute, TTL values, etc. This information will help you to create a map of the target network and perform a man-in-the-middle attack.
 Task 1: Perform Network Tracerouting in Windows and Linux Machines - The route is the path that the network packet traverses between the source and destination. Network tracerouting is a process of identifying the path and hosts lying between the source and destination. Network tracerouting provides critical information such as the IP address of the hosts lying between the source and destination, which enables you to map the network topology of the organization. Traceroute can be used to extract information about network topology, trusted routers, firewall locations, etc. 
 
 1. In the Windows 11 machine, open the Command Prompt window. Run tracert www.certifiedhacker.com command to view the hops that the packets made before reaching the destination.
@@ -126,7 +128,7 @@ Task 1: Perform Network Tracerouting in Windows and Linux Machines - The route i
 4. Switch to the Parrot Security machine and open a Terminal window. Run traceroute www.certifiedhacker.com command to view the hops that the packets made before reaching the destination.
 ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/b32214a336c7cda6a4d3f85d3cfadca53501ca56/images/30.jpg)
 
-Lab 7: Perform Footprinting using Various Footprinting Tools
+# Lab 7: Perform Footprinting using Various Footprinting Tools
 Task 1: Footprinting a Target using Recon-ng
 
 1. In the Parrot Security machine, open a Terminal window and execute sudo su to run the programs as a root user .
