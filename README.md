@@ -41,32 +41,32 @@ Domains and sub-domains are part of critical network infrastructure for any orga
 
 1. Launch any web browser, and go to https://www.netcraft.com (here, we are using Mozilla Firefox).
 2. Netcraft page appears, as shown in the screenshot.
-3. 4
+3. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/4.jpg)
 4. Click on Resources tab and select Research Tools.
-5. 5
+5. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/5.jpg)
 6. In the Tools | Netcraft page, click on Site Report option.
-7. 6
+7. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/6.jpg)
 8. The What's that site running? page appears. To extract information associated with the organizational website such as infrastructure, technology used, sub domains, background, network, etc., type the target website's URL (here, https://www.certifiedhacker.com) in the text field, and then click the LOOK UP button, as shown in the screenshot.
-9. 7
+9. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/7.jpg)
 10. The Site report for https://www.certifiedhacker.com page appears, containing information related to Background, Network, Hosting History, etc., as shown in the screenshot.
-11. 8
+11. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/8.jpg)
 12. In the Network section, click on the website link (here, certifiedhacker.com) in the Domain field to view the subdomains.
-13. 9
+13. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/9.jpg)
 14. The result will display the subdomains of the target website along with netblock and operating system information, as shown in the screenshot.
-15. 10
+15. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/10.jpg)
 16. Now, I will find company's DNS Servers along with Geo IP and domain mapping using DNSdumpster website.
 17. Open a new tab in Firefox browser and go to https://dnsdumpster.com/. Search for certifiedhacker.com in the search box.
-18. 11
+18. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/11.jpg)
 19. The website displays the GEOIP of Host Locations, as shown in the screenshot.
-20. 12
+20. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/12.jpg)
 21. Scroll down to view the list of DNS Servers, MX Records, Host Record (A) along with their IP addresses.
-22. 13
+22. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/13.jpg)
 23. Further, scroll down to view the domain mapping of the website.
-24. 14
+24. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/14.jpg)
 25. Click on Download .xlsx of Hosts button to download the list of hosts.
-26. 15
+26. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/15.jpg)
 27. Navigate to the Downloads folder and double-click on certifiedhacker.com-xxxxxxx.xlsx file to view the list of Hosts. The Excel sheet displays the details such as Hostname, IP Address, Reverse DNS, Netblock Owner, Country, HTTP /Title, etc.
-28. 16
+28. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/16.jpg)
 29. This concludes the demonstration of finding the company's domains and subdomains and Hosts using the Netcraft tool and DNSdumpster. The attackers can use this collected list of subdomains to perform web application attacks on the target organization such as injection attacks, brute-force attack, and denial-of-service (DoS) attacks.
 
 Lab 3: Perform Footprinting Through Social Networking Sites
@@ -76,7 +76,7 @@ Sherlock is a python-based tool that is used to gather information about a targe
 1. Turn on the Parrot Security virtual machine
 2. Open a Terminal window and execute sudo su to run the programs as a root user
 3. Run sherlock "Elon Musk" command and you will get all the URLs related to Elon Musk, as shown in the screenshot. Scroll-down to view all the results.
-4. 17
+4. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/17.jpg)
 5. The attackers can further use the gathered URLs to obtain sensitive information about the target such as DOB, employment status and information about the organization that they are working for, including the business strategy, potential clients, and upcoming project plans.
 
 Lab 4: Perform Whois Footprinting
@@ -84,10 +84,10 @@ Task 1: Perform Whois Lookup using DomainTools
 
 1. Open any web browser, and go to https://whois.domaintools.com
 2. The Whois Lookup website appears, as shown in the screenshot. Now, in the search bar, search for www.certifiedhacker.com.
-3. 18
+3. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/18.jpg)
 4. This search result reveals the details associated with the URL entered, www.certifiedhacker.com, which includes organizational details such as registration details, name servers, IP address, location, etc., as shown in the screenshots.
-5. 19
-6. 20
+5. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/19.jpg)
+6. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/2ef1248a3f1ca595a4e4d97cb53b2356ddf450e1/images/20.jpg)
 
 Lab 5: Perform DNS Footprinting - DNS considered the intermediary source for any Internet communication. The primary function of DNS is to translate a domain name to IP address and vice-versa to enable human-machine-network-internet communications. Since each device has a unique IP address, it is hard for human beings to memorize all IP addresses of the required application. DNS helps in converting the IP address to a more easily understandable domain format, which eases the burden on human beings.
 Task 1: Gather DNS Information using nslookup Command Line Utility and Online Tool - nslookup is a network administration command-line utility, generally used for querying the DNS to obtain a domain name or IP address mapping or for any other specific DNS record. This utility is available both as a command-line utility and web application.
