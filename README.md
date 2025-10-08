@@ -27,7 +27,7 @@ Task 1: Gather Information using Advanced Google Hacking Techniques
 
 1. Launch any web browser, and go to https://www.google.com (here, I are using Mozilla Firefox).
 2. In the search bar search for intitle:login site:eccouncil.org. This search command uses intitle and site Google advanced operators, which restrict results to pages on the eccouncil.org website that contain the login pages.
-3. 1
+3. ![image alt](https://github.com/asyrafzf95/Footprinting-and-Reconnaissance/blob/800656b15a69743289766613a7863a5f50ab2588/1.jpg)
 4. Similarly, type the command EC-Council filetype:pdf ceh in the search bar to search your results based on the file extension and the keyword (here, ceh). Click on any link from the results (here, CEH-brochure.pdf) to view the pdf file. Here, the file type pdf is searched for the target organization EC-Council. The result might differ when you perform this task. The PDF and other documents from a target website may provide sensitive information about the target's products and services. They may help attackers to determine an attack vector to exploit the target.
 5. 2
 6. The page appears displaying the PDF file, as shown in the screenshot.
