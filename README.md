@@ -22,6 +22,29 @@ Passive Footprinting: Involves gathering information without direct interaction.
 
 Active Footprinting: Involves gathering information with direct interaction. In active footprinting, the target may recognize the ongoing information gathering process, as we overtly interact with the target network.
 
+Ethical hackers or pen testers use numerous tools and techniques to collect information about the target. Recommended labs that i used in learning various footprinting techniques include:
+
+1. Perform footprinting through search engines
+ - Gather information using advanced Google hacking techniques
+
+2. Perform footprinting through Internet Research Services
+ - Find the company's domains, sub-domains, and Hosts using Netcraft and DNSdumpster
+
+3. Perform footprinting through social networking sites
+ - Gather personal information from various social networking sites using Sherlock
+
+4. Perform Whois footprinting
+ - Perform Whois lookup using DomainTools
+
+5. Perform DNS footprinting
+ - Gather DNS information using nslookup command line utility and online tool
+
+6. Perform network footprinting
+ - Perform network tracerouting in Windows and Linux Machines
+
+7. Perform footprinting using various footprinting tools
+ - Footprinting a target using Recon-ng
+
 # Lab 1: Perform Footprinting Through Search Engines
 Task 1: Gather Information using Advanced Google Hacking Techniques
 
